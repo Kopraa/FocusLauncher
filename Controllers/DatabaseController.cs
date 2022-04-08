@@ -30,7 +30,7 @@ namespace FocusLauncher.Controllers
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Connection was not succsesful.");
+                Console.WriteLine("Connection was not successful.");
                 Console.WriteLine(ex.Message);
                 Console.WriteLine(ex.StackTrace);
             }
